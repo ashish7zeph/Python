@@ -1,0 +1,6 @@
+>>> len('hello') 
+5 
+>>> len('My very energetic monster just scarfed nachos.') 
+46 
+>>> len('') 
+0
