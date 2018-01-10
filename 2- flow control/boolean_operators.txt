@@ -1,0 +1,24 @@
+>>> True and True 	#and operator
+True 
+>>> True and False 
+False
+
+>>> False or True 	#or operator
+True 
+>>> False or False 
+False
+
+>>> not True 	#not operator
+False 
+
+>>> not not not not True 
+True
+
+>>> (4 < 5) and (5 < 6) 
+True 
+>>> (4 < 5) and (9 < 6) 
+False 
+>>> (1 == 2) or (2 == 2) 
+True
+
+
