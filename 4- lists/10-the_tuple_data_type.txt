@@ -1,0 +1,33 @@
+#The Tuple Data Type-immutable type
+
+>>> eggs = ('hello', 42, 0.5) 
+>>> eggs[0] 
+'hello' 
+>>> eggs[1:3] 
+(42, 0.5) 
+>>> len(eggs)
+3
+
+#Tuples cannot have their values modified, appended, or removed
+
+>>> eggs = ('hello', 42, 0.5) 
+>>> eggs[1] = 99 
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module> 
+   eggs[1] = 99 
+TypeError: 'tuple' object does not support item assignment
+
+>>> type(('hello',)) 
+<class 'tuple'> 
+>>> type(('hello')) 
+<class 'str'>
+
+
+#Converting Types with the list() and tuple() Functions
+
+>>> tuple(['cat', 'dog', 5]) 
+('cat', 'dog', 5) 
+>>> list(('cat', 'dog', 5)) 
+['cat', 'dog', 5] 
+>>> list('hello') 
+['h', 'e', 'l', 'l', 'o']

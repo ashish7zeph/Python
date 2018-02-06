@@ -1,0 +1,19 @@
+#The Multiple Assignment Trick
+
+>>> cat = ['fat', 'black', 'loud'] 
+>>> size = cat[0] 
+>>> color = cat[1] 
+>>> disposition = cat[2]
+
+#instead u could do this
+
+>>> cat = ['fat', 'black', 'loud'] 
+>>> size, color, disposition = cat
+
+
+>>> cat = ['fat', 'black', 'loud'] 
+>>> size, color, disposition, name = cat 
+Traceback (most recent call last):
+  File "<pyshell#84>", line 1, in <module>
+    size, color, disposition, name = cat 
+ValueError: need more than 3 values to unpack
