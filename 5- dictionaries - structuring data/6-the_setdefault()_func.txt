@@ -1,0 +1,22 @@
+#You’ll often have to set a value in a dictionary for a
+ certain key only if that key does not already have a value.
+
+spam = {'name': 'Pooka', 'age': 5} 
+if 'color' not in spam:
+    spam['color'] = 'black'
+
+
+#The setdefault() method offers a way to do this in one line of code. 
+
+>>> spam = {'name': 'Pooka', 'age': 5} 
+>>> spam.setdefault('color', 'black') 
+'black' 
+>>> spam {'color': 'black', 'age': 5, 'name': 'Pooka'} 
+>>> spam.setdefault('color', 'white') 
+'black' 
+>>> spam 
+{'color': 'black', 'age': 5, 'name': 'Pooka'}
+
+# The first argument passed to the method is the key to check for, and the
+ second argument is the value to set at that key if the key does not exist.
+ If the key does exist, the setdefault() method returns the key’s value. 

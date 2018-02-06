@@ -1,0 +1,8 @@
+# get() method that takes two arguments: the key of the value to
+ retrieve and a fallback value to return if that key does not exist. 
+
+>>> picnicItems = {'apples': 5, 'cups': 2} 
+>>> 'I am bringing ' + str(picnicItems.get('cups', 0)) + ' cups.' 
+'I am bringing 2 cups.' 
+>>> 'I am bringing ' + str(picnicItems.get('eggs', 0)) + ' eggs.' 
+'I am bringing 0 eggs.'
