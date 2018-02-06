@@ -1,0 +1,10 @@
+>>> spam = True 
+>>> spam 
+True 
+>>> true 
+Traceback (most recent call last): 
+ File "<pyshell#2>", line 1, in <module>
+    true 
+NameError: name 'true' is not defined 
+>>> True = 2 + 2 
+SyntaxError: assignment to keyword
