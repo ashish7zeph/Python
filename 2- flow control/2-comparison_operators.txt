@@ -1,0 +1,32 @@
+>>> 42 == 42 
+True
+>>> 2 != 3 
+True 
+>>> 'hello' == 'hello' 
+True 
+>>> 'hello' == 'Hello' 
+False 
+>>> 'dog' != 'cat' 
+True 
+>>> True == True 
+True 
+>>> True != False 
+True 
+>>> 42 == 42.0 
+True u 
+>>> 42 == '42' 
+False
+>>> 42 < 100 
+True 
+>>> 42 > 100 
+False 
+>>> 42 < 42 
+False 
+>>> eggCount = 42 
+>>> eggCount <= 42 
+True 
+>>> myAge = 29 
+>>> myAge >= 10 
+True
+
+
