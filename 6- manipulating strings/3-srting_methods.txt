@@ -1,0 +1,138 @@
+#useful String methods
+
+#The upper(), lower(), isupper(), and islower() String Methods 
+
+>>> spam = 'Hello world!' 
+>>> spam = spam.upper() 
+>>> spam 
+'HELLO WORLD!' 
+>>> spam = spam.lower() 
+>>> spam 
+'hello world!'
+
+>>> spam = 'Hello world!' 
+>>> spam.islower() 
+False 
+>>> spam.isupper() 
+False 
+>>> 'HELLO'.isupper() 
+True 
+>>> 'abc12345'.islower() 
+True 
+>>> '12345'.islower() 
+False 
+>>> '12345'.isupper() 
+False
+
+>>> 'Hello'.upper() 
+'HELLO' 
+>>> 'Hello'.upper().lower() 
+'hello' 
+>>> 'Hello'.upper().lower().upper() 
+'HELLO' 
+>>> 'HELLO'.lower() 
+'hello' 
+>>> 'HELLO'.lower().islower() 
+True
+
+#The isX String Methods 
+
+•	isalpha() returns True if the string consists only of letters and is not blank. 
+•	isalnum() returns True if the string consists only of letters and numbers and is not blank.
+•	isdecimal() returns True if the string consists only of numeric characters and is not blank.
+•	isspace() returns True if the string consists only of spaces, tabs, and newlines and is not blank. 
+•	istitle() returns True if the string consists only of words that begin with an uppercase letter followed by only lowercase letters.
+
+>>> 'hello'.isalpha() 
+True 
+>>> 'hello123'.isalpha() 
+False 
+>>> 'hello123'.isalnum() 
+True 
+>>> 'hello'.isalnum() 
+True 
+>>> '123'.isdecimal() 
+True 
+>>> '    '.isspace() 
+True 
+>>> 'This Is Title Case'.istitle() 
+True 
+>>> 'This Is Title Case 123'.istitle() 
+True 
+>>> 'This Is not Title Case'.istitle() 
+False 
+>>> 'This Is NOT Title Case Either'.istitle() 
+False
+
+#The startswith() and endswith() String Methods
+
+>>> 'Hello world!'.startswith('Hello') 
+True 
+>>> 'Hello world!'.endswith('world!') 
+True 
+>>> 'abc123'.startswith('abcdef') 
+False 
+>>> 'abc123'.endswith('12') 
+False 
+>>> 'Hello world!'.startswith('Hello world!') 
+True 
+>>> 'Hello world!'.endswith('Hello world!') 
+True
+
+#The join() and split() String Methods
+
+#The join() method is useful when you have a list of strings that need to be joined together into a single string value. 
+
+>>> ', '.join(['cats', 'rats', 'bats']) 
+'cats, rats, bats' 
+>>> ' '.join(['My', 'name', 'is', 'Simon']) 
+'My name is Simon' 
+>>> 'ABC'.join(['My', 'name', 'is', 'Simon']) 
+'MyABCnameABCisABCSimon'
+
+# The split() method does the opposite: It’s called on a string value and returns a list of strings. 
+
+>>> 'My name is Simon'.split() 
+['My', 'name', 'is', 'Simon']
+>>> 'MyABCnameABCisABCSimon'.split('ABC') 
+['My', 'name', 'is', 'Simon'] 
+>>> 'My name is Simon'.split('m') 
+['My na', 'e is Si', 'on']
+
+#Justifying Text with rjust(), ljust(), and center() 
+
+>>> 'Hello'.rjust(10) 
+'     Hello' 
+>>> 'Hello'.rjust(20) 
+'               Hello' 
+>>> 'Hello World'.rjust(20) 
+'         Hello World' 
+>>> 'Hello'.ljust(10) 
+'Hello     '
+>>> 'Hello'.rjust(20, '*') 
+'***************Hello' 
+>>> 'Hello'.ljust(20, '-') 
+'Hello---------------'
+>>> 'Hello'.center(20) 
+'       Hello        ' 
+>>> 'Hello'.center(20, '=') 
+'=======Hello========'
+
+
+#Removing Whitespace with strip(), rstrip(), and lstrip()
+
+#The lstrip() and rstrip() methods will remove whitespace characters from the left and right ends, respectively. 
+
+>>> spam = '    Hello World    ' 
+>>> spam.strip() 
+'Hello World' 
+>>> spam.lstrip() 
+'Hello World    ' 
+>>> spam.rstrip() 
+'    Hello World'
+
+#Passing strip() the argument 'ampS' will tell it to strip occurences of a, m, p, and capital S from the ends of the string stored in spam.
+
+>>> spam = 'SpamSpamBaconSpamEggsSpamSpam' 
+>>> spam.strip('ampS') 
+'BaconSpamEggs'
