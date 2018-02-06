@@ -1,2 +1,2 @@
 # Python_Courses
-learning python language
+course learning python language
