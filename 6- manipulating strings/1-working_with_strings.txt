@@ -1,0 +1,75 @@
+#working with strings
+
+#string literals:  >>>'That is Alice's cat.'  It won't work as it takes as string ends after Alice.
+
+#double quotes: >>> spam = "That is Alice's cat." this works
+
+#Escape Characters 
+
+Escape character 	Prints as 
+-----------------	----------
+\' 			Single quote 
+\" 			Double quote 
+\t 			Tab 
+\n 			Newline (line break) 
+\\ 			Backslash
+
+Ex: >>> spam = 'Say hi to Bob\'s mother.'
+
+>>> print("Hello there!\nHow are you?\nI\'m doing fine.") 
+Hello there! 
+How are you? 
+I'm doing fine.
+
+#raw Strings: You can place an r before the beginning quotation mark of a string to make it a raw string. A raw string completely ignores all escape characters and prints any backslash that appears in the string
+
+>>> print(r'That is Carol\'s cat.') 
+That is Carol\'s cat.
+
+#Multiline Strings with triple Quotes 
+
+	print('''Dear Alice,
+	Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+	Sincerely, Bob''')
+
+output:
+	Dear Alice,
+	Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+	Sincerely, Bob
+
+#Indexing and Slicing Strings
+
+>>> spam = 'Hello world!' 
+>>> spam[0] 
+'H' 
+>>> spam[4] 
+'o' 
+>>> spam[-1] 
+'!' 
+>>> spam[0:5] 
+'Hello'
+>>> spam[:5] 
+'Hello' 
+>>> spam[6:] 
+'world!'
+
+>>> spam = 'Hello world!' 
+>>> fizz = spam[0:5] 
+>>> fizz 
+'Hello'
+
+#The in and not in Operators with Strings
+
+>>> 'Hello' in 'Hello World' 
+True 
+>>> 'Hello' in 'Hello' 
+True 
+>>> 'HELLO' in 'Hello World' 
+False 
+>>> '' in 'spam' 
+True 
+>>> 'cats' not in 'cats and dogs' 
+False
+
+
+
