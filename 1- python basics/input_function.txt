@@ -1,1 +1,0 @@
-myName = input("Enter your Name :")  # myName is a variable
