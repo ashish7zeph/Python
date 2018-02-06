@@ -1,4 +1,0 @@
->>> spam = print('Hello!') 
-Hello! 
->>> None == spam 	# None in python is like Null in C
-True
