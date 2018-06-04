@@ -17,4 +17,11 @@ Serial folders are provided here with python as well as text files for better un
 
 ### References
 
+From my experience, this book is actually a good book for learning the basics of python programming. With its help one will know
+how to write the basic python code for performing required basic tasks. Also another cool feature of this book is that it will
+provide you with the details about automation with python. That part I haven't mentioned in this repo. You can go though it and 
+can learn it from the book itself.
+
 ![](https://i.ytimg.com/vi/tcMaVNm-FWU/maxresdefault.jpg)
+
+![](https://blog.essaycorp.com/wp-content/uploads/2018/03/Python-Programming-Project.png)
