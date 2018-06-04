@@ -25,4 +25,4 @@ can learn it from the book itself.
 ![](https://i.ytimg.com/vi/tcMaVNm-FWU/maxresdefault.jpg)
 
 
-                    ![](https://blog.essaycorp.com/wp-content/uploads/2018/03/Python-Programming-Project.png)
+                                                      Learning Python Starts Now!!
