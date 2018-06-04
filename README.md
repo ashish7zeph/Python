@@ -25,4 +25,4 @@ can learn it from the book itself.
 ![](https://i.ytimg.com/vi/tcMaVNm-FWU/maxresdefault.jpg)
 
 
-                                               **Learning Python Starts Now!!**
+                                                  Learning Python Starts Now!!
