@@ -1,4 +1,4 @@
-# Python_Course
+# Python Course
 
 Self made course for learning Basic Python, referenced from the book - Automate the boring stuff with Python.
 
